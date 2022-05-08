@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="Jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+
+
+
+    <style>
+    #foot svg:hover{
+        fill: #03C9A9;
+      }
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <!-- 1.background image  -->
+
+
+    
+    <div   style="background: url(header.jpg) no-repeat; background-position: center; background-size: cover;" class="container-fluid">
+      <!--trois icons-->
+        <div class="d-flex justify-content-between mb-3">
+        <p class=" text-white me-auto ml-2 p-2 bd-highlight ">BLACKTIE.CO </p>
+        
+        <div class="d-flex mr-2 mb-5">
+        <div class="p-2 bd-highlight"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg></a> </div>
+        <div class="p-2 bd-highlight"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg></a> </div>
+        <div class="p-2 bd-highlight"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg></a>  </div>
+        </div>
+       
+      </div>
+    
+    <!--titre et  input-->
+      <h2 class="text-center text-white mb-5 " >Welcome to our new app site.  <br>
+        Sign up now & prepare to enjoy our <br> service. </h1>  
+
+    <div class="d-flex opacity-25 row justify-content-center mb-5 " >
+    <input type="email" class="form-control opacity-25 mt-2 col-sm-10  col-lg-4 " style="opacity: 0.9; border-radius: 50px;  width:  13cm; height: 1.5cm;" placeholder="Enter your e-mail address">
+    <button type="button" class="btn btn-lg ml-4 mt-2 col-sm-6 col-lg-2 " style="color: white; background: #03C9A9; border-radius: 50px; height: 1.5cm; font-size: 13px; width: 5cm;" >SART YOUR FREE TRIAL</button>
+    
+    </div>
+      <p class="text-center text-white mb-5" > 30 DAY FREE TRIAL - NO CREDIT CARD NEEDED.</p><br><br><br><br>
+    </div>
+
+    <!-- 2. Image du telephone  -->
+    <div class="container justify-content-center">
+    <div class=" my-5 row ">
+      <div class="col-lg-6  ">
+        <h2 class="py-5 ">All the features you want in this kind of  apps you'll got it here.</h2>
+        <p>Lorem Ipsum is simply dummy text  of the printing and typesetting <br>  industry. Lorem Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley br of type <br>  and scrambled it to make a type specimen book.</p>       
+     
+      <div class="pt-3">
+      <img src="Sumo Landing/img/google-play.png" alt="" style=" width:5cm;">
+      <img src="Sumo Landing/img/app-store.png" alt="" style=" width:5cm;">
+      </div>
+      </div>
+      
+     <div class="mt-5 col-lg-6"> <img src="Sumo Landing/img/phone.png" class="w-100 h-100" alt="" ></div>
+    </div>
+  </div>
+    <!--3. next background -->
+    <div  style="background: url(sep.jpg) no-repeat; background-position: center; background-size: cover;">
+      <div class="text-white text-center ">
+      <h1 class="pt-5">Join your experiences with the people you <br> care more. Let us help you.</h1>
+      <p class="pt-3 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+           <button class="btn my-5" style="color: white; background: #03C9A9; border-radius: 50px; height: 1.4cm; font-size: 13px; width: 4cm;">LEARN MORE</button>    
+    </div>
+    </div>
+
+    <!--4.div avec col -->
+ 
+   
+   <h2 class="text-center pt-5 mt-5 mb-3">
+    Our Pricing Model <br>
+    It's Quite Easy To Understand.
+  </h2>
+
+  <div class="container">
+  <div class="container justify-content-center col-12 ">
+  <div class="row " >
+  
+  <div class="col-lg-4  mt-5 " style=" height:15cm; border-radius: 20px; border: 2px solid black;">
+    <table class="table text-center" style="border-color : grey;">
+      <thead >
+        <tr  >
+          <th class="pt-5 pb-4 border-top-0" style="border-color : grey;">STANDARD</th>
+        </tr>
+      </thead>
+      
+        <tr>
+          <td class="py-4"  style="border-color : grey;">10GB Storage Space</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">Free Support</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">100 Users</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">100GB Bandwith</td>
+        </tr>
+
+          <td class="pb-5"  >
+            <h1 class="mb-4">$ 29/mo.</h1>
+            <button class="btn " style="color: white; background: #03C9A9; border-radius: 50px; height: 1.4cm; font-size: 13px; width: 4cm;">SUBSCRIBE NOW</button></td>
+        </tr>
+     
+    </table>
+  </div>
+
+
+  <div class="col-lg-4  mt-5" style=" height:15cm; border-radius: 20px; border: 2px solid black;">
+    <table class="table text-center" style="border-color : grey;">
+      <thead>
+        <tr >
+          <th class="pt-5 pb-4 border-top-0" style="border-color : grey;">BUSINESS</th>
+        </tr>
+      </thead>
+   
+        <tr>
+          <td class="py-4"  style="border-color : grey;">50GB Storage Space</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">Free Support</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">500 Users</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">500GB Bandwith</td>
+        </tr>
+
+          <td class="pb-5"  >
+            <h1 class="mb-4">$ 49 /mo.</h1>
+            <button class="btn " style="color: white; background: #03C9A9; border-radius: 50px; height: 1.4cm; font-size: 13px; width: 4cm;">SUBSCRIBE NOW</button></td>
+        </tr>
+   
+    </table>
+  </div>
+
+
+  <div class="col-lg-4 mt-5" style="height:15cm; border-radius: 20px; border: 2px solid black;">
+    <table class="table text-center " style="border-color : grey;">
+      <thead>
+        <tr >
+          <th class="pt-5 pb-4 border-top-0" style="border-color : grey;">CORPORATE</th>
+        </tr>
+      </thead>
+      
+        <tr>
+          <td class="py-4"  style="border-color : grey;">100GB Storage Space</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">Free Support</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">10,000 Users</td>
+        </tr>
+        <tr>
+          <td class="py-4" style="border-color : grey;">3TB Bandwith</td>
+        </tr>
+
+        <tr>
+          <td class="pb-5"  >
+            <h1 class="mb-4">$ 89 /mo.</h1>
+
+            <button class="btn  " style="color: white; background: #03C9A9; border-radius: 50px; height: 1.4cm; font-size: 13px; width: 4cm;">SUBSCRIBE NOW</button></td>
+        </tr>
+    
+    </table>
+  </div>
+</div>
+</div>
+</div> 
+
+<br>
+<br>
+
+    <!--5.Logo-->
+<div class="container-fluid justify-content-center mt-5" style="background-color: #f2f2f2;">
+   <div class="row offset-2 py-5" >
+      <div class="py-4 ml-4 "> <img src="Sumo Landing/img/client1.png" alt="" style="width: 2cm; height: 1cm;"> </div>
+      <div class=" offset-1 py-4 col-sm-12 col-lg-1"> <img src="Sumo Landing/img/client3.png"   alt="" style="width: 3cm;"></div>
+      <div class=" offset-1 py-4 col-sm-12 col-lg-1"> <img src="Sumo Landing/img/client2.png"   alt="" style="width: 2.5cm; height: 1cm;"></div>
+      <div class=" offset-1 py-4 col-sm-12 col-lg-1"><img src="Sumo Landing/img/client4.png"  alt="" style="width: 3cm;"></div>
+      <div class=" offset-1 py-4 col-sm-12 col-lg-1"><img src="Sumo Landing/img/client5.png"   alt="" style="width: 3cm;"></div>
+  </div> 
+</div>
+
+
+   <!--6..carroussel-->
+   <div style="background-color: #03c9a9;" class="py-5 text-white">
+    <div class="container justify-content-center py-5">
+   <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-12 col-xl-8 offset-xl-2" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="text-center">
+         <p style="font-size: x-large;"> I enjoyed so much the last edition of Landing Sumo, that I bought the tickets for the new one edition of the event the first day.
+          </p >
+         <h6> DAVID JHONSON </h6>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="text-center">
+        <p style="font-size: x-large;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p >
+        <h6>MARK LAWRENCE</h6>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <div class="text-center">
+        <p style="font-size: x-large;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, by injected humour.</p >
+        <h6>LISA SMITH</h6>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!--7.Dernier footer-->
+<div style="background: #2f2f2f; color: white;" id="foot">
+  <div class="container justify-content-center">
+    <div class="row text-center py-5">
+      <div class="col-12 mt-2 mb-3"> <h2>You Can Contact Us</h2></div>
+      
+      <div class="col-12"> <p>HELLO@LANDINGSUMO.COM</p> </div>
+    
+        <div class="col-12 my-5">
+          
+            <span class="p-3 " style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg></a></span>
+          
+            <span class="p-3 " style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"  class="bi bi-fan" viewBox="0 0 16 16">
+              <path d="M10 3c0 1.313-.304 2.508-.8 3.4a1.991 1.991 0 0 0-1.484-.38c-.28-.982-.91-2.04-1.838-2.969a8.368 8.368 0 0 0-.491-.454A5.976 5.976 0 0 1 8 2c.691 0 1.355.117 1.973.332.018.219.027.442.027.668Zm0 5c0 .073-.004.146-.012.217 1.018-.019 2.2-.353 3.331-1.006a8.39 8.39 0 0 0 .57-.361 6.004 6.004 0 0 0-2.53-3.823 9.02 9.02 0 0 1-.145.64c-.34 1.269-.944 2.346-1.656 3.079.277.343.442.78.442 1.254Zm-.137.728a2.007 2.007 0 0 1-1.07 1.109c.525.87 1.405 1.725 2.535 2.377.2.116.402.222.605.317a5.986 5.986 0 0 0 2.053-4.111c-.208.073-.421.14-.641.199-1.264.339-2.493.356-3.482.11ZM8 10c-.45 0-.866-.149-1.2-.4-.494.89-.796 2.082-.796 3.391 0 .23.01.457.027.678A5.99 5.99 0 0 0 8 14c.94 0 1.83-.216 2.623-.602a8.359 8.359 0 0 1-.497-.458c-.925-.926-1.555-1.981-1.836-2.96-.094.013-.191.02-.29.02ZM6 8c0-.08.005-.16.014-.239-1.02.017-2.205.351-3.34 1.007a8.366 8.366 0 0 0-.568.359 6.003 6.003 0 0 0 2.525 3.839 8.37 8.37 0 0 1 .148-.653c.34-1.267.94-2.342 1.65-3.075A1.988 1.988 0 0 1 6 8Zm-3.347-.632c1.267-.34 2.498-.355 3.488-.107.196-.494.583-.89 1.07-1.1-.524-.874-1.406-1.733-2.541-2.388a8.363 8.363 0 0 0-.594-.312 5.987 5.987 0 0 0-2.06 4.106c.206-.074.418-.14.637-.199ZM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/>
+            </svg></a></span>
+            <span class="p-3" style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg></a> </span>
+            <span class="p-3" style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg></a></span>
+            <span class="p-3" style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-pinterest" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+            </svg></a></span>
+            <span class="p-3" style="opacity: 70%;"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-tiktok" viewBox="0 0 16 16">
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+            </svg></a></span>
+            
+        </div>
+
+       <div class="col-12" style="font-size: small;"><p>COPYRIGHT 2014 - LANDING SUMO</p> </div> 
+    </div>
+  </div>
+ 
+</div>
+
+ 
+</body>
+</html>
